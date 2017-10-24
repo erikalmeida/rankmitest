@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  padreId: 1
+  area: MyString
+  nota: 1.5
+
+two:
+  padreId: 1
+  area: MyString
+  nota: 1.5
