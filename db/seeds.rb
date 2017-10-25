@@ -5,12 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Departamento.create([{area: "Gerencia General", nota:0},
-	{area: "Gerencia Finanzas", nota:0,departamento_id:1},
-	{area: "Gerencia Operaciones", nota:0,departamento_id:1},
-	{area: "Gerencia Tecnología", nota:0,departamento_id:1},
-	{area: "Contabilidad", nota:2,departamento_id:2},
-	{area: "Analisis", nota:2,departamento_id:3},
-	{area: "Consultoria", nota:2,departamento_id:3},
-	{area: "Desarrollo", nota:2,departamento_id:4},
-	{area: "QA", nota:2,departamento_id:4}])
+Departamento.create([
+	{area: "root", nota:0},
+	{area: "Gerencia General", nota:2,departamento_id:1},
+	{area: "Gerencia Finanzas", nota:2,departamento_id:2},
+	{area: "Gerencia Operaciones", nota:2,departamento_id:2},
+	{area: "Gerencia Tecnología", nota:2,departamento_id:2},
+	{area: "Contabilidad", nota:2,departamento_id:3},
+	{area: "Analisis", nota:2,departamento_id:4},
+	{area: "Consultoria", nota:2,departamento_id:4},
+	{area: "Desarrollo", nota:2,departamento_id:5},
+	{area: "QA", nota:2,departamento_id:5}])
